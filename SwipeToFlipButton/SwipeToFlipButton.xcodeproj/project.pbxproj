@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE44649C1C6E2307003825F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44649B1C6E2307003825F7 /* AppDelegate.swift */; };
+		EE44649E1C6E2307003825F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44649D1C6E2307003825F7 /* ViewController.swift */; };
+		EE4464A11C6E2307003825F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE44649F1C6E2307003825F7 /* Main.storyboard */; };
+		EE4464A31C6E2307003825F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4464A21C6E2307003825F7 /* Assets.xcassets */; };
+		EE4464A61C6E2307003825F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4464A41C6E2307003825F7 /* LaunchScreen.storyboard */; };
+		EE4464B11C6E2307003825F7 /* SwipeToFlipButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4464B01C6E2307003825F7 /* SwipeToFlipButtonTests.swift */; };
+		EE4464BC1C6E2307003825F7 /* SwipeToFlipButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4464BB1C6E2307003825F7 /* SwipeToFlipButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4464AD1C6E2307003825F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4464901C6E2307003825F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4464971C6E2307003825F7;
+			remoteInfo = SwipeToFlipButton;
+		};
+		EE4464B81C6E2307003825F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4464901C6E2307003825F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4464971C6E2307003825F7;
+			remoteInfo = SwipeToFlipButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4464981C6E2307003825F7 /* SwipeToFlipButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeToFlipButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE44649B1C6E2307003825F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE44649D1C6E2307003825F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE4464A01C6E2307003825F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4464A21C6E2307003825F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4464A51C6E2307003825F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4464A71C6E2307003825F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4464AC1C6E2307003825F7 /* SwipeToFlipButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeToFlipButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4464B01C6E2307003825F7 /* SwipeToFlipButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToFlipButtonTests.swift; sourceTree = "<group>"; };
+		EE4464B21C6E2307003825F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4464B71C6E2307003825F7 /* SwipeToFlipButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeToFlipButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4464BB1C6E2307003825F7 /* SwipeToFlipButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToFlipButtonUITests.swift; sourceTree = "<group>"; };
+		EE4464BD1C6E2307003825F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4464951C6E2307003825F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464A91C6E2307003825F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464B41C6E2307003825F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE44648F1C6E2307003825F7 = {
+			isa = PBXGroup;
+			children = (
+				EE44649A1C6E2307003825F7 /* SwipeToFlipButton */,
+				EE4464AF1C6E2307003825F7 /* SwipeToFlipButtonTests */,
+				EE4464BA1C6E2307003825F7 /* SwipeToFlipButtonUITests */,
+				EE4464991C6E2307003825F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4464991C6E2307003825F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4464981C6E2307003825F7 /* SwipeToFlipButton.app */,
+				EE4464AC1C6E2307003825F7 /* SwipeToFlipButtonTests.xctest */,
+				EE4464B71C6E2307003825F7 /* SwipeToFlipButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE44649A1C6E2307003825F7 /* SwipeToFlipButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE44649B1C6E2307003825F7 /* AppDelegate.swift */,
+				EE44649D1C6E2307003825F7 /* ViewController.swift */,
+				EE44649F1C6E2307003825F7 /* Main.storyboard */,
+				EE4464A21C6E2307003825F7 /* Assets.xcassets */,
+				EE4464A41C6E2307003825F7 /* LaunchScreen.storyboard */,
+				EE4464A71C6E2307003825F7 /* Info.plist */,
+			);
+			path = SwipeToFlipButton;
+			sourceTree = "<group>";
+		};
+		EE4464AF1C6E2307003825F7 /* SwipeToFlipButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4464B01C6E2307003825F7 /* SwipeToFlipButtonTests.swift */,
+				EE4464B21C6E2307003825F7 /* Info.plist */,
+			);
+			path = SwipeToFlipButtonTests;
+			sourceTree = "<group>";
+		};
+		EE4464BA1C6E2307003825F7 /* SwipeToFlipButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4464BB1C6E2307003825F7 /* SwipeToFlipButtonUITests.swift */,
+				EE4464BD1C6E2307003825F7 /* Info.plist */,
+			);
+			path = SwipeToFlipButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4464971C6E2307003825F7 /* SwipeToFlipButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4464C01C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButton" */;
+			buildPhases = (
+				EE4464941C6E2307003825F7 /* Sources */,
+				EE4464951C6E2307003825F7 /* Frameworks */,
+				EE4464961C6E2307003825F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeToFlipButton;
+			productName = SwipeToFlipButton;
+			productReference = EE4464981C6E2307003825F7 /* SwipeToFlipButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4464AB1C6E2307003825F7 /* SwipeToFlipButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4464C31C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButtonTests" */;
+			buildPhases = (
+				EE4464A81C6E2307003825F7 /* Sources */,
+				EE4464A91C6E2307003825F7 /* Frameworks */,
+				EE4464AA1C6E2307003825F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4464AE1C6E2307003825F7 /* PBXTargetDependency */,
+			);
+			name = SwipeToFlipButtonTests;
+			productName = SwipeToFlipButtonTests;
+			productReference = EE4464AC1C6E2307003825F7 /* SwipeToFlipButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4464B61C6E2307003825F7 /* SwipeToFlipButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4464C61C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButtonUITests" */;
+			buildPhases = (
+				EE4464B31C6E2307003825F7 /* Sources */,
+				EE4464B41C6E2307003825F7 /* Frameworks */,
+				EE4464B51C6E2307003825F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4464B91C6E2307003825F7 /* PBXTargetDependency */,
+			);
+			name = SwipeToFlipButtonUITests;
+			productName = SwipeToFlipButtonUITests;
+			productReference = EE4464B71C6E2307003825F7 /* SwipeToFlipButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4464901C6E2307003825F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = losoftware;
+				TargetAttributes = {
+					EE4464971C6E2307003825F7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EE4464AB1C6E2307003825F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE4464971C6E2307003825F7;
+					};
+					EE4464B61C6E2307003825F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE4464971C6E2307003825F7;
+					};
+				};
+			};
+			buildConfigurationList = EE4464931C6E2307003825F7 /* Build configuration list for PBXProject "SwipeToFlipButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE44648F1C6E2307003825F7;
+			productRefGroup = EE4464991C6E2307003825F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4464971C6E2307003825F7 /* SwipeToFlipButton */,
+				EE4464AB1C6E2307003825F7 /* SwipeToFlipButtonTests */,
+				EE4464B61C6E2307003825F7 /* SwipeToFlipButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4464961C6E2307003825F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4464A61C6E2307003825F7 /* LaunchScreen.storyboard in Resources */,
+				EE4464A31C6E2307003825F7 /* Assets.xcassets in Resources */,
+				EE4464A11C6E2307003825F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464AA1C6E2307003825F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464B51C6E2307003825F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4464941C6E2307003825F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE44649E1C6E2307003825F7 /* ViewController.swift in Sources */,
+				EE44649C1C6E2307003825F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464A81C6E2307003825F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4464B11C6E2307003825F7 /* SwipeToFlipButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4464B31C6E2307003825F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4464BC1C6E2307003825F7 /* SwipeToFlipButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4464AE1C6E2307003825F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4464971C6E2307003825F7 /* SwipeToFlipButton */;
+			targetProxy = EE4464AD1C6E2307003825F7 /* PBXContainerItemProxy */;
+		};
+		EE4464B91C6E2307003825F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4464971C6E2307003825F7 /* SwipeToFlipButton */;
+			targetProxy = EE4464B81C6E2307003825F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE44649F1C6E2307003825F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4464A01C6E2307003825F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4464A41C6E2307003825F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4464A51C6E2307003825F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4464BE1C6E2307003825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4464BF1C6E2307003825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4464C11C6E2307003825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeToFlipButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4464C21C6E2307003825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeToFlipButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4464C41C6E2307003825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeToFlipButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeToFlipButton.app/SwipeToFlipButton";
+			};
+			name = Debug;
+		};
+		EE4464C51C6E2307003825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeToFlipButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeToFlipButton.app/SwipeToFlipButton";
+			};
+			name = Release;
+		};
+		EE4464C71C6E2307003825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeToFlipButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeToFlipButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE4464C81C6E2307003825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeToFlipButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losoftware.SwipeToFlipButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeToFlipButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4464931C6E2307003825F7 /* Build configuration list for PBXProject "SwipeToFlipButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4464BE1C6E2307003825F7 /* Debug */,
+				EE4464BF1C6E2307003825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4464C01C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4464C11C6E2307003825F7 /* Debug */,
+				EE4464C21C6E2307003825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4464C31C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4464C41C6E2307003825F7 /* Debug */,
+				EE4464C51C6E2307003825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4464C61C6E2307003825F7 /* Build configuration list for PBXNativeTarget "SwipeToFlipButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4464C71C6E2307003825F7 /* Debug */,
+				EE4464C81C6E2307003825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4464901C6E2307003825F7 /* Project object */;
+}
