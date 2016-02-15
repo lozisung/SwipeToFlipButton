@@ -38,7 +38,7 @@ public class SwipeToFlipButton: UIView {
     var fontColour: UIColor = UIColor.blackColor()
     var cornerRadius: CGFloat = 10.0
     
-    public init(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int) {
+    public init(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int, tapDelegate: AnyObject!) {
         
         seqArray = sequenceArray
         currentItem = defaultArrayItem
@@ -54,7 +54,8 @@ public class SwipeToFlipButton: UIView {
         let leftSwipeGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "swiped:")
         leftSwipeGesture.direction = UISwipeGestureRecognizerDirection.Left
         
-        if delegate != nil {
+        if tapDelegate != nil {
+            delegate = tapDelegate
             let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target: delegate, action: "swipeButtonTapped")
             self.addGestureRecognizer(tapGesture)
         }
