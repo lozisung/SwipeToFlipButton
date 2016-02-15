@@ -7,7 +7,7 @@ SwipeToFlipButton(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int)
 
 where sequenceArray is the sequence to step through ie 1,2,3,4,5 and defaultArrayItem is the currently displayed index item.
 
-OPTIONS: 
+OPTIONS: Call initButton if any changes have been made to the default options
 
 .animationDuration to change speed of animation, default is 0.375.
 .alignment to change NSTextAlignment
