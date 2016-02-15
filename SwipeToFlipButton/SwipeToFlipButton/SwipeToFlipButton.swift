@@ -36,7 +36,9 @@ public class SwipeToFlipButton: UIView {
     var buttonFont: UIFont = UIFont(name: "Helvetica", size: 14)!
     var backgroundColour: UIColor = UIColor.whiteColor()
     var fontColour: UIColor = UIColor.blackColor()
-    var cornerRadius: CGFloat = 10.0
+    var cornerRadius: CGFloat = 0
+    var borderColour: UIColor = UIColor.blackColor()
+    var borderWidth: CGFloat = 0
     
     public init(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int, tapDelegate: AnyObject!) {
         
@@ -120,6 +122,9 @@ public class SwipeToFlipButton: UIView {
         theView.font = buttonFont
         theView.textColor = fontColour
         theView.backgroundColor = backgroundColour
+        theView.layer.cornerRadius = cornerRadius
+        theView.layer.borderColor = borderColour.CGColor
+        theView.layer.borderWidth = borderWidth
         
         return theView
         
