@@ -118,6 +118,7 @@ public class SwipeToFlipButton: UIView {
     
     func setupButtonView(theView: UILabel) -> UILabel {
         
+        theView.clipsToBounds = true
         theView.textAlignment = alignment
         theView.font = buttonFont
         theView.textColor = fontColour
