@@ -10,7 +10,7 @@
 import UIKit
 
 protocol SwipeToFlipProtocol {
-    static func swipeButtonTapped()
+    func swipeButtonTapped()
 }
 
 public class SwipeToFlipButton: UIView {
