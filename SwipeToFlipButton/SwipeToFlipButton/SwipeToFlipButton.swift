@@ -36,14 +36,12 @@ public class SwipeToFlipButton: UIView {
     var buttonFont: UIFont = UIFont(name: "Helvetica", size: 14)!
     var backgroundColour: UIColor = UIColor.whiteColor()
     var fontColour: UIColor = UIColor.blackColor()
+    var cornerRadius: CGFloat = 10.0
     
-    public init(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int, buttonColour: UIColor, textColour: UIColor) {
+    public init(frame: CGRect, sequenceArray: NSArray, defaultArrayItem: Int) {
         
         seqArray = sequenceArray
         currentItem = defaultArrayItem
-        
-        self.backgroundColour = buttonColour
-        self.fontColour = textColour
         
         backView = UILabel(frame: CGRect(origin: CGPoint(x: 0,y: 0), size: frame.size))
         frontView = UILabel(frame: CGRect(origin: CGPoint(x: 0,y: 0), size: frame.size))
@@ -66,7 +64,9 @@ public class SwipeToFlipButton: UIView {
         self.addGestureRecognizer(leftSwipeGesture)
         self.userInteractionEnabled = true
         
+        self.initButton()
         self.addSubview(frontView)
+        
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -107,7 +107,10 @@ public class SwipeToFlipButton: UIView {
     }
     
     public func initButton () {
+        self.backView = self.setupButtonView(self.backView)
         self.frontView = self.setupButtonView(self.frontView)
+        
+        
     }
     
     func setupButtonView(theView: UILabel) -> UILabel {
